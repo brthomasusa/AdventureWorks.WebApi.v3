@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdventureWorks.Models\AdventureWorks.Models.csproj" />
+    <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+</Project>
